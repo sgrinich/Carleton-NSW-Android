@@ -1,0 +1,54 @@
+"Address Changes
+Phone: 1-507-222-4195
+'Email: addresses@carleton.edu
+"Admissions
+Phone: 1-507-222-4190
+'Email: admissions@carleton.edu
+"Business Office
+Phone: 1-507-222-4165
+'Email: studentaccounts@carleton.edu
+"Chaplain
+Phone: 1-507-222-4003
+'Email: chaplain@carleton.edu
+"Computing/Email Support
+Phone: 1-507-222-4040
+'Email: helpdesk@carleton.edu
+"Dean of the College
+Phone: 1-507-222-4300
+'Email: docoffice@carleton.edu
+"Dean of Students
+Phone: 1-507-222-4075
+'Email: dosoffice@carleton.edu
+"Disability Services for Students
+Phone: 1-507-222-4080
+'Email: ds@carleton.edu
+"Financial Aid
+Phone: 1-507-222-4138
+'Email: financialaid@carleton.edu
+"International Programs
+Phone: 1-507-222-5937
+'Email: phan@carleton.edu
+"Language Placement
+Phone: 1-507-222-4252
+'Email: mtatge@carleton.edu
+"Math Placement
+Phone: 1-507-222-4360
+'Email: mathplacement@carleton.edu
+"OneCard
+Phone: 1-507-222-7728
+'Email: onecard@carleton.edu
+"Registration
+Phone: 1-507-222-4289
+'Email: registrar@carleton.edu
+"Residential Life
+Phone: 1-507-222-4072
+'Email: reslife@carleton.edu
+"Shipping & Mailing
+Phone: 1-507-222-4187
+'Email: mailservices@carleton.edu
+"Student Activities Office
+Phone: 1-507-222-4462
+'Email: sao@carleton.edu
+"Student Health and Counseling
+Phone: 1-507-222-4080
+'Email: shac@carleton.edu

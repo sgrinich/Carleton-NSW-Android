@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dip"
+    android:paddingTop="4dip" >
+ 
+    <TextView
+        android:id="@+id/time_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0077AB"
+        android:textSize="24sp"
+        android:textStyle="bold" 
+        android:paddingLeft="5dp"/>
+ 
+    <TextView
+        android:id="@+id/event_title"
+        android:textSize="18sp"
+        android:textColor="#0077AB"
+        android:layout_width="wrap_content"
+        android:paddingRight="10dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+ 
+
+</LinearLayout>

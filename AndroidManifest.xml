@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carleton.nsw"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nsw_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.carleton.nsw.ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:screenOrientation="portrait" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+  			android:name ="com.carleton.nsw.DownloadActivityDownloadActivity"
+            android:label="@string/title_activity_download"
+            android:noHistory="true" >
+        </activity>
+        
+        <activity
+           android:name ="com.carleton.nsw.EventDescriptionActivity"
+            android:label="@string/title_activity_event_description"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.carleton.nsw.SpeakCarletonActivity"
+            android:label="@string/title_activity_speak_carleton"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.carleton.nsw.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.carleton.nsw.CarlTermDescriptionActivity"
+            android:label="@string/title_activity_carl_term_description"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity    
+            android:name="com.carleton.nsw.MapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBYrgP9n3sruCWfdDY6svsX7OPaFxwTykM" >
+        </meta-data>
+        
+        <activity
+            android:name="com.carleton.nsw.ImportantContactsActivity"
+            android:label="@string/title_activity_important_contacts"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".LocationChooserActivity"
+            android:label="@string/title_activity_location_chooser" >
+        </activity>
+        
+        <receiver
+        	android:name="com.carleton.nsw.AlarmReceiver"
+            android:process="com.carleton.nsw.FAQActivity" >
+        </receiver>
+
+        <activity
+ 			android:name="com.carleton.nsw.FAQActivity"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        
+        <activity
+            android:name="com.carleton.nsw.FaqDescriptionActivity"
+            android:label="@string/title_activity_faq_description" >
+        </activity>
+        
+    </application>
+
+</manifest>

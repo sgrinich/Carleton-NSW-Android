@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item  
+        android:id="@+id/one"  
+        android:title="5 Minutes Before"/>  
+      
+    <item  
+        android:id="@+id/two"  
+        android:title="10 Minutes Before"/>  
+        
+    <item  
+        android:id="@+id/three"  
+        android:title="15 Minutes Before"/>  
+        
+    <item  
+        android:id="@+id/four"  
+        android:title="30 Minutes Before"/>  
+        
+    <item  
+        android:id="@+id/five"  
+        android:title="One Hour Before"/>  
+        
+    <item  
+        android:id="@+id/six"  
+        android:title="One Day Before"/>  
+    
+    
+</menu>

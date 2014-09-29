@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.carleton.nsw.EventDescriptionActivity"
+    android:background="#EFEFF4" >
+    
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="32sp"
+	        android:gravity="center"
+	        android:paddingTop="10dp"
+	        android:text="Title goes here"
+	        android:textColor="#0077AB" 
+	        />
+	    
+	     <RelativeLayout
+	        android:id="@+id/details"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/back"
+	        android:layout_below="@id/title"
+	        android:layout_marginTop="-25dp"
+	        android:layout_centerHorizontal="true">
+	    
+		    <TextView
+		        android:id="@+id/location"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textSize="18sp"
+		        android:layout_centerHorizontal="true"
+		        android:textColor="#0077AB" />
+		    
+		    <TextView
+		        android:id="@+id/duration"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="-20dp"
+		        android:gravity="center"
+		        android:textSize="18sp"
+		        android:layout_centerHorizontal="true"
+		        android:layout_below="@+id/location"
+		        android:textColor="#0077AB" />
+    
+      </RelativeLayout>
+    
+    
+    <TextView
+        android:id="@+id/description"
+        android:autoLink="web"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details"
+        android:layout_above="@+id/notify_id"
+        android:textSize="18sp"
+        android:background="@drawable/back"
+        android:scrollbars = "vertical"
+        />
+    
+    
+    
+    <RelativeLayout
+        android:id="@+id/notify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+    
+	    <ImageButton 
+	         android:id="@+id/notify_button"
+			 android:src="@drawable/notification_button" 
+			 android:layout_gravity="center_horizontal|center"
+			 android:layout_width="70dp"
+			 android:layout_height="70dp"
+			 android:background="@null"
+			 android:scaleType="fitCenter"/>
+	    
+	    <TextView 
+	        android:id="@+id/notify_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notify_button"
+            android:text="N O T I F Y"
+            android:textSize = "12sp"
+            android:layout_centerInParent="true"/>
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

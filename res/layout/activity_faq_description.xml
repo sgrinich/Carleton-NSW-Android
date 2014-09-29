@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.carleton.nsw.CarlTermDescriptionActivity" 
+    android:background="#EFEFF4">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#0077AB"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:paddingBottom = "15dp"
+        android:paddingTop = "10dp"
+        android:text="@string/hello_world" 
+        />
+    
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingTop ="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/question_text_view"
+        android:background="@drawable/back"
+        android:maxLines="15"
+        android:scrollbars = "vertical"/>
+
+</RelativeLayout>

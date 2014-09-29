@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carleton NSW</string>
+    <string name="hello_world">TETSETSETST</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_event_description">EventDescriptionActivity</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string-array name="title_array">
+        <item>Schedule</item>
+        <item>Campus Map</item>
+        <item>Speak Carleton</item>
+        <item>Important Contacts</item>
+        <item>FAQ</item>
+    </string-array>
+
+    <string name="title_activity_speak_carleton">Speak Carleton</string>
+    <string name="title_activity_schedule">Carleton NSW</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_carl_term_description">Term and Definitions</string>
+    <string name="title_activity_map">Campus Map</string>
+    <string name="title_activity_important_contacts">Important Contacts</string>
+    <string name="title_activity_location_chooser">Looking for something?</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_faq">Frequently Asked Questions</string>
+    <string name="title_activity_faq_description">FAQ Answer</string>
+
+</resources>
